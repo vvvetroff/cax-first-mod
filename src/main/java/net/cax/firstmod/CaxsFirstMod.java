@@ -1,12 +1,14 @@
 package net.cax.firstmod;
 
+import net.cax.firstmod.item.ModItemGroups;
+import net.cax.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CaxsFirstMod implements ModInitializer {
-	public static final String MOD_ID = "cax_first_mod";
+	public static final String MOD_ID = "firstmod";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -18,8 +20,7 @@ public class CaxsFirstMod implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		// this is a test comment
-
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
