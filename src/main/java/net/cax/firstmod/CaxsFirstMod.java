@@ -1,5 +1,6 @@
 package net.cax.firstmod;
 
+import net.cax.firstmod.block.ModBlocks;
 import net.cax.firstmod.item.ModItemGroups;
 import net.cax.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -22,5 +23,6 @@ public class CaxsFirstMod implements ModInitializer {
 		// Proceed with mild caution.
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
