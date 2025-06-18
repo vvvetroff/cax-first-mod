@@ -1,0 +1,23 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-06-18 10:06:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dripstone_caves": "2025-06-18 10:06:44 -0400",
+      "minecraft:forest": "2025-06-18 10:06:46 -0400",
+      "minecraft:meadow": "2025-06-18 10:06:59 -0400"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-06-18 10:08:07 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
